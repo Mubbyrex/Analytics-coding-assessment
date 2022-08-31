@@ -1,0 +1,11 @@
+query {
+  asalist {
+    result {
+      name
+      assetId
+      available
+      logo
+      unitname1
+    }
+  }
+}

@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://analytics-api.herokuapp.com/analytics"
+documents: "graphql/*.graphql"
+generates:
+  generated.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
